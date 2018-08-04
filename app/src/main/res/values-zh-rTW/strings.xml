@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="ed_login_def">請輸入帳號</string>
+    <string name="tv_passwd_def">密碼</string>
+    <string name="btn_login_def">登入</string>
+    <string name="tv_msg_loginfail">登入失敗</string>
+    <string name="tv_msg_loginOk">歡迎您，</string>
+    <string name="tv_msg_defaultMsg">祝您好運</string>
+    <string name="btn_func1">功能一</string>
+    <string name="btn_func2">功能二</string>
+    <string name="btn_func3">功能三</string>
+</resources>

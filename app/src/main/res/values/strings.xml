@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="ed_login_def">Please enter ID here</string>
+    <string name="tv_login_def">ID</string>
+    <string name="tv_passwd_def">Password</string>
+    <string name="btn_login_def">Login</string>
+    <string name="tv_msg_loginfail">Login Failed!</string>
+    <string name="tv_msg_loginOk">Welcome,</string>
+    <string name="tv_msg_defaultMsg">Good Luck, YorkWu</string>
+    <string name="btn_func1">Function1</string>
+    <string name="btn_func2">Function2</string>
+    <string name="btn_func3">Function3</string>
+</resources>
