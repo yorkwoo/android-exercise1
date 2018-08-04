@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginOk" />
-        <activity android:name=".LoginCheck"></activity>
+        <activity android:name=".LoginCheck" />
+        <activity
+            android:name=".Intro"
+            android:label="@string/title_activity_intro"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

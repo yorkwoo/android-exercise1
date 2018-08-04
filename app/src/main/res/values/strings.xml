@@ -10,4 +10,5 @@
     <string name="btn_func1">Function1</string>
     <string name="btn_func2">Function2</string>
     <string name="btn_func3">Function3</string>
+    <string name="title_activity_intro">WelcomeAnim</string>
 </resources>
