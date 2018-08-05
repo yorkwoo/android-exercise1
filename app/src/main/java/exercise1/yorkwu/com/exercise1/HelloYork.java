@@ -50,10 +50,10 @@ public class HelloYork extends AppCompatActivity {
                     b.putString("KEY_ID", et_login.getText().toString());
                     b.putString("KEY_PWD", et_passwd.getText().toString());
                     Intent intent = new Intent();
-                    //intent.setClass(HelloYork.this, LoginCheck.class);
+                    intent.setClass(HelloYork.this, LoginCheck.class);
                     // setClassName can be used to call another process's activity
-                    intent.setClassName(callApp,
-                            "yorkwusoft.com.logincheck.ykLoginCheck");
+                    //intent.setClassName(callApp,
+                    //        "yorkwusoft.com.logincheck.ykLoginCheck");
                     intent.putExtras(b);
                     /* request code is am arbitrary code which used once. */
                     HelloYork.this.startActivityForResult(intent, 12345);
@@ -95,7 +95,7 @@ public class HelloYork extends AppCompatActivity {
             e.printStackTrace();
             Log.e(TAG, e.toString());
         }
-        //HelloYork.this.finish();
+        HelloYork.this.finish();
 
     }
 
